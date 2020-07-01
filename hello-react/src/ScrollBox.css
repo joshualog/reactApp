@@ -1,0 +1,13 @@
+.box {
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+  overflow: "scroll";
+  position: relative;
+}
+
+.inner_box {
+  width: 100%;
+  height: 650px;
+  background: linear-gradient(white, black);
+}
