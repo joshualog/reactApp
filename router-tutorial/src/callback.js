@@ -9,4 +9,14 @@ function increase(number, callback) {
 
 increase(0, (result) => {
   console.log(result);
+  increase(result, (result) => {
+    console.log(result);
+    increase(result, (result) => {
+      console.log(result);
+      increase(result, (result) => {
+        console.log(result);
+        console.log("process end");
+      });
+    });
+  });
 });
